@@ -78,6 +78,9 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   style: TextButton.styleFrom(
                     foregroundColor: Theme.of(context).colorScheme.secondary,
+                    shape: const BeveledRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(7.0)),
+                    ),
                   ),
                 ),
                 // TODO: Add an elevation to NEXT (103)
@@ -92,6 +95,9 @@ class _LoginPageState extends State<LoginPage> {
                     foregroundColor: Colors.black,
                     backgroundColor: Theme.of(context).colorScheme.primary,
                     elevation: 8.0,
+                    shape: const BeveledRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(7.0)),
+                    ),
                   ),
                 ),
               ],
